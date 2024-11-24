@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setActionBarTitle(title)
         listData.addAll(KabKotaData.listDataKabKota)
         showRecyclerList()
-        setSupportActionBar(findViewById(R.id.my_toolbar))
+        setSupportActionBar(findViewById(R.id.toolbar))
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
